@@ -1,0 +1,112 @@
+.main {
+background-color:#fd79a8;
+margin-top: 2px;
+text-align: center;
+font-size: 15px;
+border: 2px solid black;
+margin-bottom: 2px;
+font-family: "Verdana", Times, serif;
+}
+#details {
+color: #34495e
+}
+#page {
+color: #b2bec3;
+}
+#store {
+color: #b2bec3;
+}
+#warn {
+color: #d63031
+}
+.xx {
+margin-left: 20px;
+text-align: center;
+font-size: 25px;
+}
+.c {
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 20px;
+}
+.category {
+background-color: #81ecec;
+float : left;
+font-size: 27px;
+border: 2px solid black;
+margin: 20px;
+padding: 10px;
+font-family: "Verdana", Times, serif;
+text-align: center;
+}
+.order {
+clear : both;
+font-size: 27px;
+font-family: "Verdana", Times, serif;
+text-align: center;
+}
+.name {
+float : center;
+font-size: 10px;
+margin: 5px;
+font-family: "Verdana", Times, serif;
+text-align: center;
+}
+.body {
+background-color: #576574;
+float : center;
+clear : both;
+font-size: 27px;
+border: 2px solid black;
+margin: 20px;
+padding: 20px;
+font-family: "Verdana", Times, serif;
+text-align: center;
+}
+.alert.warning {background-color: #dfe6e9; color: black}
+.button1 {
+background-color: #fd79a8;
+color: white;
+width: 180px;
+height: 40px;
+}
+.tableWithBorder table,.tableWithBorder td, .tableWithBorder th { border-collapse: collapse;
+width: 100%; text-align: left;
+padding: 10px;
+}
+.tableWithBorder tr:nth-child(even){background-color: #f2f2f2}
+.tableWithBorder tr:hover {background-color: #f8a5c2;}
+.tableWithBorder th {
+background-color: #81ecec;
+}
+table,
+th,
+td {
+margin: auto;
+width: 30%;
+}
+.cc {
+text-align: center;
+}
+h1 {
+color: rgb(15, 11, 11);
+font-size: 25px;
+text-align: center;
+}
+h3 {
+font-size: 18px;
+text-align: center;
+color: green;
+font-family: 'Times New Roman', Times, serif
+}
+.button {
+background-color:#1289A7;
+color: white;
+width: 150px;
+height: 40px;
+}
+.homepage {
+position: absolute;
+top: 20px;
+right: 20px;
+}

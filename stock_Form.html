@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>
+Stock Details
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "styleSheet.css">
+</head>
+<body>
+<div class="main">
+<h1><b>Enter Stock Details</b></h1>
+</div>
+<br />
+<div class="cc">
+<h3><b>To Refill Stock</b></h3>
+<form action="stock.php" method="post" >
+<table >
+<tr>
+<td> Stock ID</td>
+<td><input type="text" name="StockID"></td>
+</tr>
+<tr>
+<td>quantity</td>
+<td><input type="text" name="quantity"></td>
+</tr>
+<tr>
+<td>Selling Price</td>
+<td><input type="text" name="SellingPrice"></td>
+</tr>
+</table>
+<input type="submit" value="Insert" class="button">
+</form>
+<h3><b>To Add new Stock </b></h3>
+<form action="AddStock.php" method="post" >
+<table >
+<tr>
+<td> Stock ID</td>
+<td><input type="text" name="StockID"></td>
+</tr>
+<tr>
+<td>Stock Name</td>
+<td><input type="text" name="StockName"></td>
+</tr>
+<tr>
+<td>quantity</td>
+<td><input type="text" name="quantity"></td>
+</tr>
+<tr>
+<td>Selling Price</td>
+<td><input type="text" name="SellingPrice"></td>
+</tr>
+</table>
+<input type="submit" value="Insert" class="button">
+</form>
+</div>
+<form class="homepage" action="index.php" method="post">
+<input type="submit" value="Go To Home page" class="button">
+</form>
+</body>
+</html>
+

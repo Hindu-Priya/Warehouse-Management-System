@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>
+Monthly Profit Calculator
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "styleSheet.css">
+</head>
+<body>
+<div class="main">
+<h1><b> Monthly Profit Calculator</b></h1>
+</div>
+<br />
+<div class="cc">
+<form action="profitMonthly.php" method="post">
+<table >
+<tr>
+<td> Year</td>
+<td><input type="text" name="year"></td>
+</tr>
+<tr>
+<td> Month</td>
+<td><input type="text" name="month"></td>
+</tr>
+</table>
+<input type="submit" value="Calculate Profit" class="button">
+<input type="hidden" name="func" value="monthly">
+</form>
+</div>
+<form class="homepage" action="index.php" method="post">
+<input type="submit" value="Go To Home page" class="button">
+</form>
+</body>
+</html>

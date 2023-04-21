@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>
+Orders
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "styleSheet.css">
+</head>
+<body>
+<div class="main">
+<h1><b>Order Page</b></h1>
+</div>
+<br />
+<div class="cc">
+<form action="warning.php" method="post">
+<table >
+<tr>
+<td>Customer ID</td>
+<td><input type="text" name="CustomerID"></td>
+</tr>
+<tr>
+<td>Stock ID</td>
+<td><input type="text" name="StockID"></td>
+</tr>
+<tr>
+<td>quantity</td>
+<td><input type="text" name="quantity"></td>
+</tr>
+<tr>
+<td>Payment Status: </td>
+<td> <select name="paymentStatus" id="paymentStatus">
+<option value="none" selected disabled hidden>Payment type</option>
+<option value="pending">pending</option>
+<option value="paid">paid</option>
+</select></td>
+</tr>
+</table>
+<input type="submit" value="Place Order" class="button">
+</form>
+</div>
+<form class="homepage" action="index.php" method="post">
+<input type="submit" value="Go To Home page" class="button">
+</form>
+</body>
+</html>
+ 
